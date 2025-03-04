@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>Heineken - Visibility drive</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png"/>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet"/>
+    <script>
+        /* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()
+    </script>
+</head>
+
+<body class="bg-dark">
+    <section class="header">
+        <div class="container-fluid position-relative h-100">
+            <div class="buttons-container">
+                <!-- Leaderboard Button -->
+                <div class="collapsible-btn">
+                    <button class="btn btn-quick collapsed-btn" onclick="toggleButton(this)">
+                        <img src="assets/general%20icons/leaderboard-bg-icon.svg" alt="Leaderboard">
+                        <span class="btn-label">Leaderboard</span>
+                    </button>
+                </div>
+                <!-- Shared Moments Button -->
+                <div class="collapsible-btn">
+                    <button class="btn btn-quick collapsed-btn" onclick="toggleButton(this)">
+                        <img src="assets/general%20icons/shared-feed-bg-icon.svg" alt="Shared Moments">
+                        <span class="btn-label">Shared Moments</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+    </section><section>
+            <div class="container-fluid body-content">
+                <div class="row">
+                    <div class="col col-md">
+                </div>
+                    <div class="col-10 col-lg-6 col-md-6 col-sm-10">
+                        <h1>VISIBILITY DRIVE</h1><div class="age-gate-row row">
+                                    <div class="age-gate col-lg-12 col-md-12 col-sm-12">
+                                        <form name="form">
+                                            <div class="row">
+                                    <h2><label class="form-label" for="countrySelect">TEAM LEADERS LOGIN HERE
+                                        </label></h2>
+                                    <div class="mb-3">
+                                        <input type="tel" class="form-control" id="cellNumber" name="cellNumber" required="true" placeholder="enter cell number"/><button type="submit" class="btn btn-primary">enter</button>
+                                    </div>
+
+                                    <p>First time user?<a href="#"><i> Register details now</i></a></p>
+                                </div>
+                                        </form>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="col col-md">
+                </div>
+                </div>
+            </div><div class="container">
+                <div class="mb-5 mt-2 mt-md-5 row">
+                <div class="col col-md">
+                </div>
+                <div class="col-10 col-lg-8 col-md-6 col-sm-10"><img src="assets/missonday-copy.svg" class=" w-100"/>
+
+                </div>
+                <div class="col col-md">
+                </div>
+            </div>
+            </div>
+        </section>
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+        function toggleButton(button) {
+            // Get all buttons
+            const buttons = document.querySelectorAll('.collapsed-btn');
+
+            // Loop through buttons and deactivate all except the one clicked
+            buttons.forEach(btn => {
+                if (btn !== button) {
+                    btn.classList.remove('active');
+                }
+            });
+
+            // Toggle the clicked button
+            button.classList.toggle('active');
+        }
+    </script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="pgia/lib/pgia.js"></script>
+</body>
+
+</html>
